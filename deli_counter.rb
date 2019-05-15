@@ -19,7 +19,7 @@ def take_a_number (customers, name)
 end
 
 def now_serving (name)
-  if customers.count == 0
+  if katz_deli.count == 0
     puts "The line is currently empty."
   else
     customer_serving = katz_deli.pop()
