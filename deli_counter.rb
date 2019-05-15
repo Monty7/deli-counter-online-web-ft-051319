@@ -15,6 +15,10 @@ end
 
 def take_a_number (customers, name)
   customers << name
+  
+  customers.each_with_index do |customer, index|
+    puts "Welcome #{customer}. You are number #{index} in line."
+  end
 end
 
 def now_serving
