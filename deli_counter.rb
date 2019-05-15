@@ -11,11 +11,10 @@ def line customers
     end
     puts line
   end
-  
 end
 
-def take_a_number
-  
+def take_a_number (customers, name)
+  customers << name
 end
 
 def now_serving
