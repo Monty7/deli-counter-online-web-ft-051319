@@ -18,11 +18,11 @@ def take_a_number (customers, name)
   puts "Welcome, #{name}. You are number #{customers.index(name) + 1} in line."
 end
 
-def now_serving name
-  if name.count == 0
+def now_serving people_in_line
+  if people_in_line.count == 0
     puts "There is nobody waiting to be served!"
   else
-    customer_serving = name.pop()
+    customer_serving = people_in_line.pop()
     puts "Currently serving #{customer_serving}."
   end
 end
