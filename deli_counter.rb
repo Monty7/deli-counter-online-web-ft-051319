@@ -19,11 +19,11 @@ def take_a_number (customers, name)
 end
 
 def now_serving (name)
-  if katz_deli.count == 0
-    puts "The line is currently empty."
-  else
+  #if katz_deli.count == 0
+    #puts "The line is currently empty."
+  #else
     customer_serving = katz_deli.pop()
-    puts "Now serving #{customer_serving}."
-  end
+    puts "Currently serving #{customer_serving}."
+  #end
 end
 
