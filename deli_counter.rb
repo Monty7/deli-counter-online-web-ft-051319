@@ -17,7 +17,7 @@ def take_a_number (customers, name)
   customers << name
   greeting = "Welcome,"
   customers.each_with_index do |customer, index|
-    puts greeting << #{customer}. You are number #{index + 1} in line."
+    puts greeting << "#{customer}. You are number #{index + 1} in line."
   end
 end
 
