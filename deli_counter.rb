@@ -19,7 +19,7 @@ def take_a_number (customers, name)
 end
 
 def now_serving name
-  if katz_deli.count == 0
+  if name.count == 0
     puts "There is nobody waiting to be served!"
   else
     customer_serving = katz_deli.pop()
