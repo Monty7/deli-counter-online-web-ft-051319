@@ -18,7 +18,12 @@ def take_a_number (customers, name)
   puts "Welcome, #{name}. You are number #{customers.index(name) + 1} in line."
 end
 
-def now_serving
-  
+def now_serving (name)
+  if customers.count == 0
+    puts "The line is currently empty."
+  else
+    customer_serving = katz_deli.pop()
+    
+  end
 end
 
