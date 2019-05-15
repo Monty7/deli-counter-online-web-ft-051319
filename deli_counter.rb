@@ -22,7 +22,8 @@ def now_serving (name)
   #if katz_deli.count == 0
     #puts "The line is currently empty."
   #else
-    line (katz_deli)
+    customer_serving = katz_deli.pop()
+    puts "Currently serving #{customer_serving}."
   #end
 end
 
