@@ -23,7 +23,7 @@ def now_serving (name)
     puts "The line is currently empty."
   else
     customer_serving = katz_deli.pop()
-    
+    puts "Now serving #{customer_serving}."
   end
 end
 
