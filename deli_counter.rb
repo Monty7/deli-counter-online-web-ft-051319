@@ -22,7 +22,7 @@ def now_serving people_in_line
   if people_in_line.count == 0
     puts "There is nobody waiting to be served!"
   else
-    customer_serving = people_in_line.pop()
+    customer_serving = people_in_line.shift()
     puts "Currently serving #{customer_serving}."
   end
 end
